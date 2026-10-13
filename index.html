@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#F8D7E3">
+    <title>Untuk Nisa ♡</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="desktop-wrapper">
+        <div class="phone-frame">
+            <div class="app-container" id="app">
+                
+                <!-- MAIN MENU -->
+                <section class="section" id="menu-section">
+                    <div class="menu-content">
+                        <h1 class="menu-title animate-fade-in">Nurul Alfatitu Annisa</h1>
+                        <p class="menu-subtitle animate-fade-in">I made a little something just for you.</p>
+                        
+                        <div class="menu-buttons">
+                            <button class="menu-btn animate-card" data-target="letter" style="animation-delay: 0.1s;">
+                                <span class="menu-btn-icon">💌</span>
+                                <span class="menu-btn-label">Letter</span>
+                            </button>
+                            <button class="menu-btn animate-card" data-target="foryou" style="animation-delay: 0.2s;">
+                                <span class="menu-btn-icon">💝</span>
+                                <span class="menu-btn-label">For You</span>
+                            </button>
+                        </div>
+                        
+                        <div class="menu-footer animate-fade-in">From Afri, with love</div>
+                    </div>
+                </section>
+
+                <!-- HOME SECTION -->
+                <section class="section active" id="home-section">
+                    <div class="home-content">
+                        <div class="home-label">A little something for you</div>
+                        <div class="decorative-hearts">
+                            <span class="heart floating-heart">♡</span>
+                            <span class="heart floating-heart" style="animation-delay: 0.5s;">♡</span>
+                            <span class="heart floating-heart" style="animation-delay: 1s;">♡</span>
+                        </div>
+                        <h1 class="home-title">Happy Birthday Sayang ♡</h1>
+                        <h2 class="home-name" id="recipient-name">Nurul Alfatitu Annisa</h2>
+                        <p class="home-subtitle" id="home-message"></p>
+                        <button class="btn-primary" id="open-surprise-btn">Open your little surprise</button>
+                    </div>
+                    <canvas id="confetti-canvas"></canvas>
+                </section>
+
+                <!-- LETTER SECTION -->
+                <section class="section" id="letter-section">
+                    <button class="back-btn" id="back-from-letter">← Kembali ke Menu</button>
+                    <div class="letter-container" id="letter-container">
+                        <div class="envelope" id="envelope">
+                            <div class="envelope-front">
+                                <div class="envelope-label">A letter for my favorite person</div>
+                                <button class="btn-secondary" id="open-letter-btn">Open my letter</button>
+                            </div>
+                        </div>
+                        <div class="letter-content hidden" id="letter-content">
+                            <div class="letter-paper">
+                                <div class="letter-text" id="letter-text"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- FOR YOU SECTION -->
+                <section class="section" id="foryou-section">
+                    <button class="back-btn" id="back-from-foryou">← Kembali ke Menu</button>
+                    <div class="section-header">
+                    </div>
+                    <div class="foryou-content">
+                        <div class="foryou-block">
+                            <h3 class="block-title">Hal-hal kecil yang bikin abang sayanggg sama adek. Karena...</h3>
+                            <div class="reasons-grid" id="reasons-grid"></div>
+                        </div>
+                        <div class="foryou-block">
+                            <div class="secret-envelope" id="secret-envelope">
+                                <div class="secret-label">Psst... there's something for you</div>
+                                <button class="btn-secret" id="open-secret-btn">👀 Open</button>
+                            </div>
+                            <div class="secret-message hidden" id="secret-message">
+                                <p id="secret-text"></p>
+                            </div>
+                        </div>
+                        <div class="foryou-block">
+                            <button class="btn-final" id="open-final-btn">One last thing, Sayang ♡</button>
+                            <div class="final-message hidden" id="final-message">
+                                <p id="final-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
