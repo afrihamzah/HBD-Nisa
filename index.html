@@ -15,6 +15,47 @@
         <div class="phone-frame">
             <div class="app-container" id="app">
                 
+                <!-- GATE SECTION -->
+                <section class="section active" id="gate-section">
+                    <div class="gate-content">
+                        <div class="gate-eyebrow">Eits, tunggu dulu!</div>
+                        <p class="gate-intro">Sebelum masuk ke little world ini, abang mau tanya sesuatu sama adek...</p>
+                        <div class="gate-question">Adek sayang abang nggak nih? 🥺</div>
+                        <p class="gate-hint" id="gate-hint">Pilih yang jujur yaa adek ♡</p>
+                        <div class="gate-response hidden" id="gate-response">Hehehe, abang tau kok! 🥰</div>
+                        <div class="gate-hearts-burst hidden" id="gate-hearts-burst" aria-hidden="true"></div>
+                        <div class="gate-buttons" id="gate-buttons">
+                            <button class="gate-btn gate-btn-yes" id="gate-yes-btn">SAYAANGGG! ♡</button>
+                            <button class="gate-btn gate-btn-no" id="gate-no-btn">Nggak 🙄</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- HOME SECTION -->
+                <section class="section" id="home-section">
+                    <div class="home-content">
+                        <div class="home-label">A little something for you</div>
+                        <div class="decorative-hearts">
+                            <span class="heart floating-heart">♡</span>
+                            <span class="heart floating-heart" style="animation-delay: 0.5s;">♡</span>
+                            <span class="heart floating-heart" style="animation-delay: 1s;">♡</span>
+                        </div>
+                        <h1 class="home-title" id="home-title"></h1>
+                        <h2 class="home-name" id="recipient-name">Nurul Alfatitu Annisa</h2>
+                        <p class="home-subtitle" id="home-message"></p>
+                        <button class="btn-primary" id="open-surprise-btn">Open your little surprise</button>
+                    </div>
+
+                    <!-- PHASE 1 scrapbook accents -->
+                    <div class="scrapbook-accent" aria-hidden="true">
+                        <span class="tape top-left-tape"></span>
+                        <span class="tape bottom-right-tape"></span>
+                        <span class="doodle-dots" aria-hidden="true"></span>
+                        <span class="doodle-heart" aria-hidden="true">♡</span>
+                        <span class="label-mw">made with love</span>
+                    </div>
+                </section>
+
                 <!-- MAIN MENU -->
                 <section class="section" id="menu-section">
                     <div class="menu-content">
@@ -22,11 +63,11 @@
                         <p class="menu-subtitle animate-fade-in">I made a little something just for you.</p>
                         
                         <div class="menu-buttons">
-                            <button class="menu-btn animate-card" data-target="letter" style="animation-delay: 0.1s;">
+                            <button class="menu-btn animate-card" data-target="letter">
                                 <span class="menu-btn-icon">💌</span>
                                 <span class="menu-btn-label">Letter</span>
                             </button>
-                            <button class="menu-btn animate-card" data-target="foryou" style="animation-delay: 0.2s;">
+                            <button class="menu-btn animate-card" data-target="foryou">
                                 <span class="menu-btn-icon">💝</span>
                                 <span class="menu-btn-label">For You</span>
                             </button>
@@ -36,35 +77,17 @@
                     </div>
                 </section>
 
-                <!-- HOME SECTION -->
-                <section class="section active" id="home-section">
-                    <div class="home-content">
-                        <div class="home-label">A little something for you</div>
-                        <div class="decorative-hearts">
-                            <span class="heart floating-heart">♡</span>
-                            <span class="heart floating-heart" style="animation-delay: 0.5s;">♡</span>
-                            <span class="heart floating-heart" style="animation-delay: 1s;">♡</span>
-                        </div>
-                        <h1 class="home-title">Happy Birthday Sayang ♡</h1>
-                        <h2 class="home-name" id="recipient-name">Nurul Alfatitu Annisa</h2>
-                        <p class="home-subtitle" id="home-message"></p>
-                        <button class="btn-primary" id="open-surprise-btn">Open your little surprise</button>
-                    </div>
-                    <canvas id="confetti-canvas"></canvas>
-                </section>
-
                 <!-- LETTER SECTION -->
                 <section class="section" id="letter-section">
                     <button class="back-btn" id="back-from-letter">← Kembali ke Menu</button>
                     <div class="letter-container" id="letter-container">
-                        <div class="envelope" id="envelope">
-                            <div class="envelope-front">
-                                <div class="envelope-label">A letter for my favorite person</div>
-                                <button class="btn-secondary" id="open-letter-btn">Open my letter</button>
-                            </div>
-                        </div>
-                        <div class="letter-content hidden" id="letter-content">
+                        <div class="letter-content">
                             <div class="letter-paper">
+                                <div class="decorative-hearts" aria-hidden="true">
+                                    <span class="heart floating-heart">♡</span>
+                                    <span class="heart floating-heart" style="animation-delay: 0.5s;">♡</span>
+                                    <span class="heart floating-heart" style="animation-delay: 1s;">♡</span>
+                                </div>
                                 <div class="letter-text" id="letter-text"></div>
                             </div>
                         </div>
@@ -74,11 +97,10 @@
                 <!-- FOR YOU SECTION -->
                 <section class="section" id="foryou-section">
                     <button class="back-btn" id="back-from-foryou">← Kembali ke Menu</button>
-                    <div class="section-header">
-                    </div>
                     <div class="foryou-content">
                         <div class="foryou-block">
                             <h3 class="block-title">Hal-hal kecil yang bikin abang sayanggg sama adek. Karena...</h3>
+                            <p class="reasons-hint">Tap kartunya untuk buka, ya ♡</p>
                             <div class="reasons-grid" id="reasons-grid"></div>
                         </div>
                         <div class="foryou-block">

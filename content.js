@@ -1,11 +1,11 @@
 // CONTENT CONFIGURATION
-// Edit this file to change all text, photos, and settings
+// Edit this file to change all text and settings
 
 const CONTENT = {
     // Basic Info
     recipientName: "Nurul Alfatitu Annisa",
     senderName: "Afri",
-    birthday: "14 Oktober 2026",
+    birthday: "14 Oktober",
     
     // Home Page
     homeMessage: `Hari ini, 14 Oktober adalah hari spesial seseorang yang kehadirannya ternyata membawa begitu banyak arti dalam hidupku.
@@ -14,46 +14,12 @@ Aku mungkin belum bisa ada di sampingmu untuk merayakannya secara langsung. Jadi
 
 Welcome to your little world. Everything here is made with love, just for you.`,
 
-    // Photos (6 photos)
-    photos: [
-        {
-            image: "images/photo-01.jpg",
-            caption: "Somehow, our story began.",
-            alt: "Kenangan pertama kami"
-        },
-        {
-            image: "images/photo-02.jpg",
-            caption: "One little moment, one big feeling.",
-            alt: "Momen spesial bersama"
-        },
-        {
-            image: "images/photo-03.jpg",
-            caption: "My favorite kind of happiness.",
-            alt: "Kebahagiaan kami"
-        },
-        {
-            image: "images/photo-04.jpg",
-            caption: "Miles apart, still close at heart.",
-            alt: "Jarak tidak memisahkan kami"
-        },
-        {
-            image: "images/photo-05.jpg",
-            caption: "A little chaos, a lot of love.",
-            alt: "Kekacauan yang indah"
-        },
-        {
-            image: "images/photo-06.jpg",
-            caption: "And I would still choose to know you.",
-            alt: "Kenangan terindah"
-        }
-    ],
-
     // Love Letter
     letter: `Happy birthday Sayang!!! 🤍
 
 Selamat bertambah usia untuk wanita yang sekarang punya tempat istimewa di hidup abang.
 
-Kalau dipikir-pikir, lucu juga ya cerita awal kita kenalan tanpa sengaja, ngobrol asik, saling kenal, tukeran wa, trus sampe sejauh ini wkwkw. Kadang ya memang hal yang ga pernah kita rencanain justru malah jadi salah satu hal yang paling berartu yang kita temuin.
+Kalau dipikir-pikir, lucu juga ya cerita awal kita kenalan tanpa sengaja, ngobrol asik, saling kenal, tukeran wa, trus sampe sejauh ini wkwkw. Kadang ya memang hal yang ga pernah kita rencanain justru malah jadi salah satu hal yang paling berarti yang kita temuin.
 
 Pada hari spesial ini, abang berharap semoga dunia memperlakukan adek dengan baik. Semoga langkahnya dimudahkan, impiannya satu per satu menemukan jalannya, dan semoga adek selalu diberi kesehatan, kebahagiaan, serta kekuatan untuk melewati apa pun yang sedang adek perjuangkan.
 
@@ -103,7 +69,7 @@ Afri 🤍`,
     secretMessage: "Plot twist terbesar dalam hidup abang adalah kenalan sama adek, awalnya cuma kenalan nggak sengaja, eh sekarang malah sesayang ini sama adek WKWKWK. But honestly, I'm really glad I met you. 🤍",
 
     // Final Message
-    finalMessage: `Kalau suatu hari nanti adek baca ini lagi, abang harap adek masih bisa merasakan satu hal yang sama: abang sungguh-sungguh ingin menjalani hubungan ini sama adek.
+    finalMessage: `Kalau suatu hari nanti adek baca ini lagi, abang harap adek masih bisa merasakan satu hal yaitu abang sungguh-sungguh ingin menjalani hubungan ini sama adek.
 
 Terima kasih yaa sayang sudah menjadi bagian dari hidup abang.
 
